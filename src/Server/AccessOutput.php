@@ -45,7 +45,7 @@ class AccessOutput
         $style = $this->style($status);
 
         $this->output->writeln(
-            sprintf("%s %s %s <$style>%d</$style> %s", $host, $date, $method, $status, $agent)
+            sprintf("%s %s %s <$style>%d</$style> %s vahid", $host, $date, $method, $status, $agent)
         );
     }
 
